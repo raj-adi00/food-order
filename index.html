@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online food delivery services | onlinemeal.com</title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
+    <link rel="stylesheet" media="screen and (max-width:913px)" href="phone.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
 </head>
 
@@ -19,10 +19,10 @@
         </div>
         <div>
             <ul class="navigation">
-                <li class="item"><a href="#" target="_blank">Home</a></li>
-                <li class="item"><a href="#" target="_blank">About us</a></li>
-                <li class="item"><a href="#" target="_blank">services</a></li>
-                <li class="item"><a href="#" target="_blank">Contact us</a></li>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#services">Our services</a></li>
+                <li class="item"><a href="#clients">Our clients</a></li>
+                <li class="item"><a href="#contact">Contact us</a></li>
             </ul>
         </div>
     </nav>
@@ -35,7 +35,7 @@
         </p>
         <button class="btn">Order now</button>
     </section>
-    <section class="services">
+    <section id="services">
         <h1 id="service" class="center">Our services</h1>
         <div id="task">
             <div id="cater" class="box">
@@ -43,7 +43,8 @@
                 <h3 class="service-head">Food catering</h3>
                 <p class="description center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum doloribus
                     deleniti quam autem, laboriosam consequuntur iste illo inventore, mollitia, dolore commodi quas
-                    quod.</p>
+                    quod. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quaerat deleniti fugiat
+                    quod expedita esse tempora earum porro? </p>
             </div>
             <div id="bulk-order" class="box">
                 <img src="2.png" alt="">
@@ -51,17 +52,65 @@
                 <p class="description center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
                     dignissimos
                     amet exercitationem facilis dolorem maiores explicabo enim soluta vel alias accusantium? Vel,
-                    maxime.</p>
+                    maxime. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quaerat deleniti fugiat
+                    quod expedita maxime vitae id ex aliquam, esse tempora earum porro? </p>
             </div>
             <div id="food-order" class="box">
                 <img src="3.png" alt="">
                 <h3 class="service-head">Food ordering</h3>
                 <p class="description center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab possimus
                     dolore,
-                    deserunt accusamus inventore excepturi ex dolorem, aperiam, nesciunt ipsam ipsum odio fugiat.</p>
+                    deserunt accusamus inventore excepturi ex dolorem, aperiam, nesciunt ipsam ipsum odio fugiat. Lorem
+                    ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quaerat deleniti fugiat quod expedita
+                    maxime vitae id ex aliquam, esse tempora earum porro? </p>
             </div>
         </div>
     </section>
+
+    <section id="clients">
+        <h2 class="center customers">Our clients</h2>
+        <div id="client-item">
+            <div class="consumer">
+                <img src="logo1.png" alt="apple">
+            </div>
+            <div class="consumer">
+                <img src="logo2.png" alt="apple">
+            </div>
+            <div class="consumer">
+                <img src="logo3.png" alt="apple">
+            </div>
+            <div class="consumer">
+                <img src="logo4.png" alt="apple">
+            </div>
+        </div>
+
+    </section>
+    <section id="contact">
+        <h2 class="center customers">Contact us</h2>
+        <div class="info">
+            <form action="noaxn.backend">
+                <div class="detail">
+                    <label for="name">Name:</label>
+                    <input type="text" name="who" id="name" placeholder="Enter your name">
+                </div>
+                <div class="detail">
+                    <label for="email">Email:</label>
+                    <input type="email" name="mail" id="email" placeholder="Enter your email">
+                </div>
+                <div class="detail">
+                    <label for="number">Phone number:</label>
+                    <input type="phone" name="phone" id="number" placeholder="Enter your phone number">
+                </div>
+                <div class="detail">
+                    <label for="message">Message:</label>
+                    <textarea name="note" id="message" cols="30" rows="10" placeholder="Enter your message"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="center">
+        copyright &copy; www.onlinemeal.com All rights reserved
+    </footer>
 
 </body>
 
